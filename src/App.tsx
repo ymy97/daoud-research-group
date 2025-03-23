@@ -91,6 +91,46 @@ function App() {
         </div>
       </section>
       
+      {/* Who We Are Section */}
+      <section id="who-we-are" className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Who We Are</h2>
+            <h3 className="text-xl font-bold text-gray-700 mb-8 font-arabic">من نحن</h3>
+            
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
+              We are a charitable organization dedicated to providing healthcare services to neurology patients free of
+              charge. Our mission extends to training medical staff in research and clinical skills.
+            </p>
+            
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto font-arabic">
+              نحن منظمة خيرية تهدف إلى تقديم الخدمات الصحية لمرضى المخ و الاعصاب مجاناً و درجت أيضاً من أجل تأهيل الكوادر الطبية في مجال البحث العلمي و المهارات السريرية
+            </p>
+          </div>
+        </div>
+      </section>
+      
+      {/* Foundation Section */}
+      <section id="foundation" className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Foundation</h2>
+            <h3 className="text-xl font-bold text-gray-700 mb-8 font-arabic">تأسيس المجموعة</h3>
+            
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
+              Founded in 1995 by Professor Anshar Hussain, the group was named in honor of
+              Professor Daoud Mustafa, a pioneering consultant in internal medicine and
+              humanitarian care.
+            </p>
+            
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto font-arabic">
+              أُسست المجموعة عام ١٩٩٥ م علي يد البروفيسور أنشار حسين ، استشاري المخ و الاعصاب و سميت تيمناً بالبروفيسور
+              داؤود مصطفى استشاري الباطنية الإنساني باعتباره منظمة خيرية
+            </p>
+          </div>
+        </div>
+      </section>
+      
       {/* Services Section */}
       <section id="services" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
