@@ -28,13 +28,8 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <header className="relative min-h-screen pt-16">
+      <header className="relative min-h-screen pt-16 bg-gradient-to-b from-blue-900 to-blue-700">
         <div className="absolute inset-0">
-          <img
-            src="https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?ixlib=rb-4.0.3&auto=format&fit=crop&w=2091&q=80"
-            alt="Medical Research Team"
-            className="w-full h-full object-cover"
-          />
           <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/50"></div>
         </div>
         
