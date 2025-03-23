@@ -91,6 +91,72 @@ function App() {
         </div>
       </section>
 
+      {/* Timeline Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="relative mx-auto max-w-3xl">
+            {/* Vertical Line */}
+            <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-gray-400"></div>
+            
+            {/* Who We Are Timeline Item */}
+            <div className="relative z-10 mb-20">
+              {/* Circle */}
+              <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-6 h-6 rounded-full bg-gray-700 border-4 border-white z-10"></div>
+              
+              {/* Content */}
+              <div className="ml-auto w-1/2 pl-10">
+                <h3 className="text-xl font-bold text-[#5EBFFF] mb-2 text-right">من نحن</h3>
+                <p className="text-right font-arabic leading-relaxed text-gray-700 text-sm">
+                  نحن منظمة خيرية تهدف إلى تقديم الخدمات الصحية لمرضى المخ و الأعصاب مجانا و درجت أيضا على تأهيل الكوادر الطبية في مجال الأبحاث العلمية و المهارات السريرية
+                </p>
+              </div>
+            </div>
+            
+            {/* Foundation Timeline Item */}
+            <div className="relative z-10 mb-20">
+              {/* Circle */}
+              <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-6 h-6 rounded-full bg-[#5EBFFF] border-4 border-white z-10"></div>
+              
+              {/* Content */}
+              <div className="mr-auto w-1/2 pr-10">
+                <h3 className="text-xl font-bold text-[#5EBFFF] mb-2">تأسيس المجموعة</h3>
+                <p className="text-right font-arabic leading-relaxed text-gray-700 text-sm">
+                  أسست المجموعة عام 1995 على يد البروفيسور أنشر حسين استشاري المخ و الأعصاب و سميت تيمنا بالبروفيسور داؤود مصطفى استشاري الباطنية الإنساني باعتبارها منظمة خيرية
+                </p>
+              </div>
+            </div>
+            
+            {/* Mission Timeline Item */}
+            <div className="relative z-10 mb-20">
+              {/* Circle */}
+              <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-6 h-6 rounded-full bg-gray-700 border-4 border-white z-10"></div>
+              
+              {/* Content */}
+              <div className="ml-auto w-1/2 pl-10">
+                <h3 className="text-xl font-bold text-[#5EBFFF] mb-2 text-right">الرسالة</h3>
+                <p className="text-right font-arabic leading-relaxed text-gray-700 text-sm">
+                  إعلاء لروح البحث العلمي لدى الطلاب، وزيادة وعي الأهالي بماهية المرض العصبي إزالة كل المفاهيم الخاطئة التي تتعلق بها
+                </p>
+              </div>
+            </div>
+            
+            {/* Vision Timeline Item */}
+            <div className="relative z-10">
+              {/* Circle */}
+              <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-6 h-6 rounded-full bg-[#5EBFFF] border-4 border-white z-10"></div>
+              
+              {/* Content */}
+              <div className="mr-auto w-1/2 pr-10">
+                <h3 className="text-xl font-bold text-[#5EBFFF] mb-2">الرؤية</h3>
+                <p className="text-right font-arabic leading-relaxed text-gray-700 text-sm">
+                  مجتمع صحي تتوفر به كافة الاحتياجات الصحية و يتمتع بقدر كبير من الوعي و المعرفة الصحية و مدرك لأهمية البحث العلمي وغني بكوادر مؤهلة أكاديميا و ثقافيا و اداريا
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Who We Are Section */}
       <section id="about" className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6">
