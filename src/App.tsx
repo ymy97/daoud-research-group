@@ -3,7 +3,7 @@ import {
   Microscope, Users, BookOpen, HeartPulse, ChevronDown, Facebook, 
   Twitter, Instagram, Youtube, Send, Phone, Mail, MapPin, Calendar, 
   ArrowRight, Stethoscope, Brain, Heart, Activity, GraduationCap,
-  Presentation, UserPlus, Clock, Building2, HandHeart
+  Presentation, UserPlus, Clock, Building2, HandHeart, Globe, Bookmark
 } from 'lucide-react';
 
 function App() {
@@ -90,9 +90,182 @@ function App() {
           </div>
         </div>
       </section>
-
-      {/* Rest of your App component code */}
-      {/* ... */}
+      
+      {/* Services Section */}
+      <section id="services" className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Services</h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              The Daoud Mobile Charity Clinic provides essential healthcare services to underserved communities across Sudan.
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition">
+              <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mb-6">
+                <Stethoscope className="h-8 w-8 text-blue-600" />
+              </div>
+              <h3 className="text-xl font-bold mb-4">Primary Care</h3>
+              <p className="text-gray-600">
+                Comprehensive primary care services including consultations, diagnostics, and treatments for common illnesses and injuries.
+              </p>
+            </div>
+            
+            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition">
+              <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mb-6">
+                <Heart className="h-8 w-8 text-blue-600" />
+              </div>
+              <h3 className="text-xl font-bold mb-4">Preventive Care</h3>
+              <p className="text-gray-600">
+                Health screenings, vaccinations, and educational programs focused on disease prevention and health promotion.
+              </p>
+            </div>
+            
+            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition">
+              <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mb-6">
+                <Brain className="h-8 w-8 text-blue-600" />
+              </div>
+              <h3 className="text-xl font-bold mb-4">Mental Health</h3>
+              <p className="text-gray-600">
+                Psychological support services, counseling, and therapy for individuals experiencing mental health challenges.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      {/* Events Section */}
+      <section id="events" className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Upcoming Events</h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              Join us at our upcoming events to learn more about our work and how you can get involved.
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition">
+              <div className="flex items-center mb-4">
+                <Calendar className="h-10 w-10 text-blue-600 mr-4" />
+                <div>
+                  <h3 className="text-xl font-bold">Community Health Fair</h3>
+                  <p className="text-gray-500">August 15, 2024 • Khartoum</p>
+                </div>
+              </div>
+              <p className="text-gray-600 mb-6">
+                Join us for a day of free health screenings, educational workshops, and family activities focused on community wellness.
+              </p>
+              <a href="#" className="inline-flex items-center text-blue-600 hover:text-blue-800">
+                Learn more <ArrowRight className="h-4 w-4 ml-2" />
+              </a>
+            </div>
+            
+            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition">
+              <div className="flex items-center mb-4">
+                <Calendar className="h-10 w-10 text-blue-600 mr-4" />
+                <div>
+                  <h3 className="text-xl font-bold">Medical Volunteer Training</h3>
+                  <p className="text-gray-500">September 5, 2024 • Omdurman</p>
+                </div>
+              </div>
+              <p className="text-gray-600 mb-6">
+                Comprehensive training for medical professionals interested in volunteering with our mobile clinic initiatives.
+              </p>
+              <a href="#" className="inline-flex items-center text-blue-600 hover:text-blue-800">
+                Learn more <ArrowRight className="h-4 w-4 ml-2" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      {/* Training Programs Section */}
+      <section id="training" className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Training Programs</h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              We offer specialized training programs for healthcare professionals to enhance their skills and knowledge.
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition">
+              <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mb-6">
+                <Presentation className="h-8 w-8 text-blue-600" />
+              </div>
+              <h3 className="text-xl font-bold mb-4">Clinical Skills Workshop</h3>
+              <p className="text-gray-600">
+                Intensive hands-on training focused on essential clinical skills for healthcare practitioners in resource-limited settings.
+              </p>
+              <div className="flex items-center mt-4 text-gray-500">
+                <Clock className="h-4 w-4 mr-2" /> 
+                <span>3-day program</span>
+              </div>
+            </div>
+            
+            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition">
+              <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mb-6">
+                <BookOpen className="h-8 w-8 text-blue-600" />
+              </div>
+              <h3 className="text-xl font-bold mb-4">Community Health Education</h3>
+              <p className="text-gray-600">
+                Training program for community health workers focused on preventive care, health education, and community engagement.
+              </p>
+              <div className="flex items-center mt-4 text-gray-500">
+                <Clock className="h-4 w-4 mr-2" /> 
+                <span>2-week program</span>
+              </div>
+            </div>
+            
+            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition">
+              <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mb-6">
+                <Globe className="h-8 w-8 text-blue-600" />
+              </div>
+              <h3 className="text-xl font-bold mb-4">Global Health Leadership</h3>
+              <p className="text-gray-600">
+                Advanced program for healthcare professionals focused on leadership, management, and innovation in global health contexts.
+              </p>
+              <div className="flex items-center mt-4 text-gray-500">
+                <Clock className="h-4 w-4 mr-2" /> 
+                <span>1-month program</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      {/* About Us Section */}
+      <section id="about" className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">About Us</h2>
+              <p className="text-lg text-gray-600 mb-6">
+                The Daoud Mobile Charity Clinic was established in 2018 with a mission to provide quality healthcare services to underserved communities across Sudan. Our mobile clinics bring essential medical care to areas with limited access to healthcare facilities.
+              </p>
+              <p className="text-lg text-gray-600 mb-6">
+                Our team consists of dedicated medical professionals, volunteers, and support staff who are committed to improving health outcomes and enhancing quality of life for vulnerable populations.
+              </p>
+              <p className="text-lg text-gray-600">
+                Through our services, training programs, and community engagement initiatives, we strive to build healthier communities and strengthen local healthcare capacity.
+              </p>
+            </div>
+            <div className="bg-blue-600 rounded-xl p-8 text-white">
+              <h3 className="text-2xl font-bold mb-6">Our Mission</h3>
+              <p className="mb-8">
+                To provide accessible, quality healthcare services to underserved communities and to strengthen local healthcare capacity through education and training.
+              </p>
+              <h3 className="text-2xl font-bold mb-6">Our Vision</h3>
+              <p>
+                A Sudan where all communities have access to quality healthcare services and where local healthcare systems are robust, sustainable, and responsive to community needs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       
       {/* Footer */}
       <footer className="bg-[#020B2D] text-white py-16">
@@ -134,9 +307,10 @@ function App() {
               <h3 className="text-xl font-bold mb-6">Useful Links</h3>
               <ul className="space-y-3">
                 <li><a href="#" className="hover:text-[#00B7FF] transition-colors">HOME</a></li>
-                <li><a href="#" className="hover:text-[#00B7FF] transition-colors">SERVICES</a></li>
-                <li><a href="#" className="hover:text-[#00B7FF] transition-colors">CONTACT</a></li>
-                <li><a href="#" className="hover:text-[#00B7FF] transition-colors">ABOUT US</a></li>
+                <li><a href="#services" className="hover:text-[#00B7FF] transition-colors">SERVICES</a></li>
+                <li><a href="#events" className="hover:text-[#00B7FF] transition-colors">EVENTS</a></li>
+                <li><a href="#training" className="hover:text-[#00B7FF] transition-colors">TRAINING</a></li>
+                <li><a href="#about" className="hover:text-[#00B7FF] transition-colors">ABOUT US</a></li>
               </ul>
             </div>
 
