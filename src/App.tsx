@@ -3,7 +3,7 @@ import {
   Microscope, Users, BookOpen, HeartPulse, ChevronDown, Facebook, 
   Twitter, Instagram, Youtube, Send, Phone, Mail, MapPin, Calendar, 
   ArrowRight, Stethoscope, Brain, Heart, Activity, GraduationCap,
-  Presentation, UserPlus, Clock, Building2, HandHeart, Globe, Bookmark
+  Presentation, UserPlus, Clock, Building2, HandHeart
 } from 'lucide-react';
 
 function App() {
@@ -90,223 +90,227 @@ function App() {
           </div>
         </div>
       </section>
-      
+
       {/* Who We Are Section */}
-      <section id="who-we-are" className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Who We Are</h2>
-            <h3 className="text-xl font-bold text-gray-700 mb-8 font-arabic">من نحن</h3>
-            
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
-              We are a charitable organization dedicated to providing healthcare services to neurology patients free of
-              charge. Our mission extends to training medical staff in research and clinical skills.
-            </p>
-            
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto font-arabic">
-              نحن منظمة خيرية تهدف إلى تقديم الخدمات الصحية لمرضى المخ و الاعصاب مجاناً و درجت أيضاً من أجل تأهيل الكوادر الطبية في مجال البحث العلمي و المهارات السريرية
-            </p>
-          </div>
-        </div>
-      </section>
-      
-      {/* Foundation Section */}
-      <section id="foundation" className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Foundation</h2>
-            <h3 className="text-xl font-bold text-gray-700 mb-8 font-arabic">تأسيس المجموعة</h3>
-            
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
-              Founded in 1995 by Professor Anshar Hussain, the group was named in honor of
-              Professor Daoud Mustafa, a pioneering consultant in internal medicine and
-              humanitarian care.
-            </p>
-            
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto font-arabic">
-              أُسست المجموعة عام ١٩٩٥ م علي يد البروفيسور أنشار حسين ، استشاري المخ و الاعصاب و سميت تيمناً بالبروفيسور
-              داؤود مصطفى استشاري الباطنية الإنساني باعتباره منظمة خيرية
-            </p>
-          </div>
-        </div>
-      </section>
-      
-      {/* Services Section */}
-      <section id="services" className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Services</h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              The Daoud Mobile Charity Clinic provides essential healthcare services to underserved communities across Sudan.
-            </p>
-          </div>
-          
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition">
-              <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mb-6">
-                <Stethoscope className="h-8 w-8 text-blue-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-4">Primary Care</h3>
-              <p className="text-gray-600">
-                Comprehensive primary care services including consultations, diagnostics, and treatments for common illnesses and injuries.
-              </p>
-            </div>
-            
-            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition">
-              <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mb-6">
-                <Heart className="h-8 w-8 text-blue-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-4">Preventive Care</h3>
-              <p className="text-gray-600">
-                Health screenings, vaccinations, and educational programs focused on disease prevention and health promotion.
-              </p>
-            </div>
-            
-            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition">
-              <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mb-6">
-                <Brain className="h-8 w-8 text-blue-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-4">Mental Health</h3>
-              <p className="text-gray-600">
-                Psychological support services, counseling, and therapy for individuals experiencing mental health challenges.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      {/* Events Section */}
-      <section id="events" className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Upcoming Events</h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Join us at our upcoming events to learn more about our work and how you can get involved.
-            </p>
-          </div>
-          
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition">
-              <div className="flex items-center mb-4">
-                <Calendar className="h-10 w-10 text-blue-600 mr-4" />
-                <div>
-                  <h3 className="text-xl font-bold">Community Health Fair</h3>
-                  <p className="text-gray-500">August 15, 2024 • Khartoum</p>
-                </div>
-              </div>
-              <p className="text-gray-600 mb-6">
-                Join us for a day of free health screenings, educational workshops, and family activities focused on community wellness.
-              </p>
-              <a href="#" className="inline-flex items-center text-blue-600 hover:text-blue-800">
-                Learn more <ArrowRight className="h-4 w-4 ml-2" />
-              </a>
-            </div>
-            
-            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition">
-              <div className="flex items-center mb-4">
-                <Calendar className="h-10 w-10 text-blue-600 mr-4" />
-                <div>
-                  <h3 className="text-xl font-bold">Medical Volunteer Training</h3>
-                  <p className="text-gray-500">September 5, 2024 • Omdurman</p>
-                </div>
-              </div>
-              <p className="text-gray-600 mb-6">
-                Comprehensive training for medical professionals interested in volunteering with our mobile clinic initiatives.
-              </p>
-              <a href="#" className="inline-flex items-center text-blue-600 hover:text-blue-800">
-                Learn more <ArrowRight className="h-4 w-4 ml-2" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      {/* Training Programs Section */}
-      <section id="training" className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Training Programs</h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              We offer specialized training programs for healthcare professionals to enhance their skills and knowledge.
-            </p>
-          </div>
-          
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition">
-              <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mb-6">
-                <Presentation className="h-8 w-8 text-blue-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-4">Clinical Skills Workshop</h3>
-              <p className="text-gray-600">
-                Intensive hands-on training focused on essential clinical skills for healthcare practitioners in resource-limited settings.
-              </p>
-              <div className="flex items-center mt-4 text-gray-500">
-                <Clock className="h-4 w-4 mr-2" /> 
-                <span>3-day program</span>
-              </div>
-            </div>
-            
-            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition">
-              <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mb-6">
-                <BookOpen className="h-8 w-8 text-blue-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-4">Community Health Education</h3>
-              <p className="text-gray-600">
-                Training program for community health workers focused on preventive care, health education, and community engagement.
-              </p>
-              <div className="flex items-center mt-4 text-gray-500">
-                <Clock className="h-4 w-4 mr-2" /> 
-                <span>2-week program</span>
-              </div>
-            </div>
-            
-            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition">
-              <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mb-6">
-                <Globe className="h-8 w-8 text-blue-600" />
-              </div>
-              <h3 className="text-xl font-bold mb-4">Global Health Leadership</h3>
-              <p className="text-gray-600">
-                Advanced program for healthcare professionals focused on leadership, management, and innovation in global health contexts.
-              </p>
-              <div className="flex items-center mt-4 text-gray-500">
-                <Clock className="h-4 w-4 mr-2" /> 
-                <span>1-month program</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      {/* About Us Section */}
       <section id="about" className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">About Us</h2>
-              <p className="text-lg text-gray-600 mb-6">
-                The Daoud Mobile Charity Clinic was established in 2018 with a mission to provide quality healthcare services to underserved communities across Sudan. Our mobile clinics bring essential medical care to areas with limited access to healthcare facilities.
+          <div className="text-center mb-16">
+            <h2 className="text-3xl font-bold mb-2">Who We Are</h2>
+            <h3 className="text-2xl font-bold mb-8 font-arabic">من نحن</h3>
+            <p className="text-gray-600 max-w-3xl mx-auto mb-4">
+              We are a charitable organization dedicated to providing healthcare services to neurology patients free of charge. Our mission extends to training medical staff in research and clinical skills.
+            </p>
+            <p className="text-gray-600 max-w-3xl mx-auto font-arabic text-right">
+              نحن منظمة خيرية تهدف إلى تقديم الخدمات الصحية لمرضى المخ و الاعصاب مجانا و درجت أيضا على تأهيل الكوادر الطبية في مجال البحث العلم و المهارات السريرية
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Foundation Section */}
+      <section id="foundation" className="py-20">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl font-bold mb-2">Foundation</h2>
+            <h3 className="text-2xl font-bold mb-8 font-arabic">تأسيس المجموعة</h3>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <p className="text-gray-600 mb-4">
+                  Founded in 1995 by Professor Anshar Hussain, the group was named in honor of Professor Daoud Mustafa, a pioneering consultant in internal medicine and humanitarian care.
+                </p>
+              </div>
+              <div>
+                <p className="text-gray-600 font-arabic text-right">
+                  أسست المجموعة عام ١٩٩٥ على يد البروفيسور أنشر حسين استشاري المخ و الاعصاب و سميت تيمنا بالبروفيسور داؤود مصطفى استشاري الباطنية الإنساني باعتبارها منظمة خيرية
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Mission & Vision */}
+      <section id="mission-vision" className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid md:grid-cols-2 gap-16">
+            {/* Mission */}
+            <div className="text-center md:text-left">
+              <h2 className="text-3xl font-bold mb-2">Our Mission</h2>
+              <h3 className="text-2xl font-bold mb-8 font-arabic">الرسالة</h3>
+              <p className="text-gray-600 mb-4">
+                To build a healthy community with adequate healthcare needs, strong awareness, and trained medical staff.
               </p>
-              <p className="text-lg text-gray-600 mb-6">
-                Our team consists of dedicated medical professionals, volunteers, and support staff who are committed to improving health outcomes and enhancing quality of life for vulnerable populations.
-              </p>
-              <p className="text-lg text-gray-600">
-                Through our services, training programs, and community engagement initiatives, we strive to build healthier communities and strengthen local healthcare capacity.
+              <p className="text-gray-600 font-arabic text-center md:text-right">
+                مجتمع صحي تتوفر به كافة الاحتياجات الصحية و يتمتع بقدر كبير من الوعي مع كوادر مؤهلة أكاديميا و ثقافيا و اداريا
               </p>
             </div>
-            <div className="bg-blue-600 rounded-xl p-8 text-white">
-              <h3 className="text-2xl font-bold mb-6">Our Mission</h3>
-              <p className="mb-8">
-                To provide accessible, quality healthcare services to underserved communities and to strengthen local healthcare capacity through education and training.
+            
+            {/* Vision */}
+            <div className="text-center md:text-left">
+              <h2 className="text-3xl font-bold mb-2">Our Vision</h2>
+              <h3 className="text-2xl font-bold mb-8 font-arabic">الرؤية</h3>
+              <p className="text-gray-600 mb-4">
+                To inspire research among students and raise awareness about neurological diseases in society while eliminating misconceptions.
               </p>
-              <h3 className="text-2xl font-bold mb-6">Our Vision</h3>
-              <p>
-                A Sudan where all communities have access to quality healthcare services and where local healthcare systems are robust, sustainable, and responsive to community needs.
+              <p className="text-gray-600 font-arabic text-center md:text-right">
+                اعلاء لروح البحث العلمي لدى الطلاب، وزيادة وعي الاهالي بماهية المرض العصبي ازالة كل المفاهيم الخاطئة التي تتعلق بها
               </p>
             </div>
           </div>
         </div>
       </section>
-      
+
+      {/* Events Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-6">
+          <h2 className="text-3xl font-bold text-center mb-12">Upcoming Events</h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* Epilepsy Day */}
+            <div className="bg-white rounded-lg shadow-md overflow-hidden">
+              <div className="bg-purple-600 text-white p-4">
+                <Calendar className="h-8 w-8 mb-2" />
+                <h3 className="text-xl font-bold">Epilepsy Awareness Day</h3>
+                <p className="text-sm opacity-90">March 26, 2024</p>
+              </div>
+              <div className="p-6">
+                <p className="text-gray-600 mb-4">Join us for a comprehensive day of education, support, and community building for epilepsy patients and their families. Features expert talks and support group sessions.</p>
+                <a href="#" className="inline-flex items-center text-purple-600 hover:text-purple-700">
+                  Find out more <ArrowRight className="h-4 w-4 ml-2" />
+                </a>
+              </div>
+            </div>
+
+            {/* Parkinson's Day */}
+            <div className="bg-white rounded-lg shadow-md overflow-hidden">
+              <div className="bg-blue-600 text-white p-4">
+                <Calendar className="h-8 w-8 mb-2" />
+                <h3 className="text-xl font-bold">Parkinson's Disease Day</h3>
+                <p className="text-sm opacity-90">April 11, 2024</p>
+              </div>
+              <div className="p-6">
+                <p className="text-gray-600 mb-4">Discover the latest treatments, therapies, and support systems for Parkinson's disease. Includes physical therapy demonstrations and medication management workshops.</p>
+                <a href="#" className="inline-flex items-center text-blue-600 hover:text-blue-700">
+                  Find out more <ArrowRight className="h-4 w-4 ml-2" />
+                </a>
+              </div>
+            </div>
+
+            {/* PHEOCs Event */}
+            <div className="bg-white rounded-lg shadow-md overflow-hidden">
+              <div className="bg-green-600 text-white p-4">
+                <Calendar className="h-8 w-8 mb-2" />
+                <h3 className="text-xl font-bold">PHEOCs & COVID-19</h3>
+                <p className="text-sm opacity-90">May 15, 2024</p>
+              </div>
+              <div className="p-6">
+                <p className="text-gray-600 mb-4">Join our comprehensive session on Public Health Emergency Operations Centres and COVID-19 Management strategies. Learn about emergency response protocols and community health measures.</p>
+                <a href="#" className="inline-flex items-center text-green-600 hover:text-green-700">
+                  Find out more <ArrowRight className="h-4 w-4 ml-2" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Services Section */}
+      <section id="services" className="py-20">
+        <div className="max-w-7xl mx-auto px-6">
+          <h2 className="text-3xl font-bold text-center mb-4">Our Services</h2>
+          <p className="text-gray-600 text-center max-w-3xl mx-auto mb-12">
+            Providing comprehensive healthcare services through our mobile clinics, specialized care programs, and educational initiatives.
+          </p>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {/* Mobile Clinics */}
+            <div className="bg-white rounded-lg p-6 shadow-lg">
+              <div className="bg-blue-100 rounded-full p-6 inline-block mb-4">
+                <Stethoscope className="h-10 w-10 text-blue-600" />
+              </div>
+              <h3 className="text-xl font-bold mb-2">Mobile Clinics</h3>
+              <p className="text-gray-600 mb-4">Free medical services through our mobile charity clinics across Sudan, reaching remote areas and underserved communities.</p>
+              <ul className="text-sm text-gray-600 space-y-2">
+                <li>• General health checkups</li>
+                <li>• Neurological assessments</li>
+                <li>• Medication distribution</li>
+                <li>• Follow-up care planning</li>
+              </ul>
+            </div>
+
+            {/* Neurological Care */}
+            <div className="bg-white rounded-lg p-6 shadow-lg">
+              <div className="bg-purple-100 rounded-full p-6 inline-block mb-4">
+                <Brain className="h-10 w-10 text-purple-600" />
+              </div>
+              <h3 className="text-xl font-bold mb-2">Neurological Care</h3>
+              <p className="text-gray-600 mb-4">Specialized care and treatment for various neurological conditions, provided by experienced specialists.</p>
+              <ul className="text-sm text-gray-600 space-y-2">
+                <li>• Epilepsy management</li>
+                <li>• Parkinson's treatment</li>
+                <li>• Stroke rehabilitation</li>
+                <li>• Headache clinics</li>
+              </ul>
+            </div>
+
+            {/* Health Education */}
+            <div className="bg-white rounded-lg p-6 shadow-lg">
+              <div className="bg-green-100 rounded-full p-6 inline-block mb-4">
+                <Presentation className="h-10 w-10 text-green-600" />
+              </div>
+              <h3 className="text-xl font-bold mb-2">Health Education</h3>
+              <p className="text-gray-600 mb-4">Comprehensive community awareness programs and health education initiatives.</p>
+              <ul className="text-sm text-gray-600 space-y-2">
+                <li>• Public health workshops</li>
+                <li>• Disease prevention</li>
+                <li>• Lifestyle counseling</li>
+                <li>• Family health education</li>
+              </ul>
+            </div>
+
+            {/* Medical Research */}
+            <div className="bg-white rounded-lg p-6 shadow-lg">
+              <div className="bg-red-100 rounded-full p-6 inline-block mb-4">
+                <Activity className="h-10 w-10 text-red-600" />
+              </div>
+              <h3 className="text-xl font-bold mb-2">Medical Research</h3>
+              <p className="text-gray-600 mb-4">Advancing medical knowledge through research and clinical studies in neurology.</p>
+              <ul className="text-sm text-gray-600 space-y-2">
+                <li>• Clinical trials</li>
+                <li>• Research publications</li>
+                <li>• Student mentorship</li>
+                <li>• International collaboration</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Training Programs Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-6">
+          <h2 className="text-3xl font-bold text-center mb-4">Training Programs</h2>
+          <p className="text-gray-600 text-center max-w-3xl mx-auto mb-12">
+            Developing the next generation of medical professionals through comprehensive training programs.
+          </p>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <GraduationCap className="h-12 w-12 text-blue-600 mb-4" />
+              <h3 className="text-xl font-bold mb-2">Medical Students</h3>
+              <p className="text-gray-600">Hands-on clinical experience and research opportunities for medical students.</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <Users className="h-12 w-12 text-green-600 mb-4" />
+              <h3 className="text-xl font-bold mb-2">Healthcare Staff</h3>
+              <p className="text-gray-600">Professional development programs for practicing healthcare workers.</p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <BookOpen className="h-12 w-12 text-purple-600 mb-4" />
+              <h3 className="text-xl font-bold mb-2">Research Fellows</h3>
+              <p className="text-gray-600">Advanced research training and mentorship opportunities.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-[#020B2D] text-white py-16">
         <div className="max-w-7xl mx-auto px-6">
@@ -348,8 +352,8 @@ function App() {
               <ul className="space-y-3">
                 <li><a href="#" className="hover:text-[#00B7FF] transition-colors">HOME</a></li>
                 <li><a href="#services" className="hover:text-[#00B7FF] transition-colors">SERVICES</a></li>
-                <li><a href="#events" className="hover:text-[#00B7FF] transition-colors">EVENTS</a></li>
-                <li><a href="#training" className="hover:text-[#00B7FF] transition-colors">TRAINING</a></li>
+                <li><a href="#" className="hover:text-[#00B7FF] transition-colors">EVENTS</a></li>
+                <li><a href="#" className="hover:text-[#00B7FF] transition-colors">TRAINING</a></li>
                 <li><a href="#about" className="hover:text-[#00B7FF] transition-colors">ABOUT US</a></li>
               </ul>
             </div>
