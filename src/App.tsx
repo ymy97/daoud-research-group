@@ -28,9 +28,14 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <header className="relative min-h-screen pt-16 bg-gradient-to-b from-blue-900 to-blue-700">
+      <header className="relative min-h-screen pt-16">
         <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/50"></div>
+          {/* Background Image */}
+          <div 
+            className="absolute inset-0 bg-cover bg-center" 
+            style={{ backgroundImage: 'url("/daoud-research-group/images/backgrounds/hero-bg.jpg")' }}
+          ></div>
+          <div className="absolute inset-0 bg-black/50"></div>
         </div>
         
         <div className="relative z-10 h-full flex items-center">
@@ -56,6 +61,7 @@ function App() {
               </button>
             </div>
           </div>
+
         </div>
 
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10">
