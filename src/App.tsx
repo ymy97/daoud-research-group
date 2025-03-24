@@ -95,13 +95,13 @@ function App() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="relative mx-auto max-w-3xl">
-            {/* Vertical Line */}
-            <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-gray-400"></div>
+            {/* Vertical Line with Caps */}
+            <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1.5 bg-gray-400 before:content-[''] before:absolute before:top-0 before:left-1/2 before:-translate-x-1/2 before:w-4 before:h-4 before:rounded-full before:bg-gray-500 after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:w-4 after:h-4 after:rounded-full after:bg-gray-500"></div>
             
             {/* Who We Are Timeline Item */}
             <div className="relative z-10 mb-20">
               {/* Circle */}
-              <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-6 h-6 rounded-full bg-gray-700 border-4 border-white z-10"></div>
+              <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-5 h-5 rounded-full bg-white border-[5px] border-gray-700 z-10"></div>
               
               {/* Content */}
               <div className="ml-auto w-1/2 pl-10">
@@ -115,7 +115,7 @@ function App() {
             {/* Foundation Timeline Item */}
             <div className="relative z-10 mb-20">
               {/* Circle */}
-              <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-6 h-6 rounded-full bg-[#5EBFFF] border-4 border-white z-10"></div>
+              <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-5 h-5 rounded-full bg-white border-[5px] border-[#5EBFFF] z-10"></div>
               
               {/* Content */}
               <div className="mr-auto w-1/2 pr-10">
@@ -129,7 +129,7 @@ function App() {
             {/* Mission Timeline Item */}
             <div className="relative z-10 mb-20">
               {/* Circle */}
-              <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-6 h-6 rounded-full bg-gray-700 border-4 border-white z-10"></div>
+              <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-5 h-5 rounded-full bg-white border-[5px] border-gray-700 z-10"></div>
               
               {/* Content */}
               <div className="ml-auto w-1/2 pl-10">
@@ -143,7 +143,7 @@ function App() {
             {/* Vision Timeline Item */}
             <div className="relative z-10">
               {/* Circle */}
-              <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-6 h-6 rounded-full bg-[#5EBFFF] border-4 border-white z-10"></div>
+              <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center justify-center w-5 h-5 rounded-full bg-white border-[5px] border-[#5EBFFF] z-10"></div>
               
               {/* Content */}
               <div className="mr-auto w-1/2 pr-10">
